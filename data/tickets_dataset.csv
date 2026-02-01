@@ -1,0 +1,301 @@
+id,title,body,category,priority
+124,Discrepanza bilancio,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Media
+138,Verifica tassa,Ho pagato due volte la fattura FT2024002. Necessario rimborso.,Amministrativo,Alta
+156,Modifica dati anagrafi,La fattura FT2024001 non risulta pagata in tesoreria. Controllare il versamento.,Amministrativo,Alta
+24,Server non raggiungibile,L'applicazione si chiude inaspettatamente quando accedo al modulo reporting.,Tecnico,Bassa
+144,Discrepanza bilancio,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+205,Richiesta preventivo,"Sono cliente di lunga data, potete fare uno sconto su questo ordine?",Commerciale,Media
+292,Sconto cliente,Registrazione nuovo cliente per primo ordine di prova.,Commerciale,Media
+248,Problema consegna,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Media
+79,Timeout API,Problema certificato SSL scaduto,Tecnico,Media
+257,Problema consegna,Proposizione collaborazione per distribuzione esclusiva.,Commerciale,Media
+195,Verifica tassa,Richiedo rimborso per l'ordine ORD-2024-456 già annullato.,Amministrativo,Alta
+86,Problema connessione,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+287,Informazioni catalogo,Mi serve un preventivo urgente per 100 licenze software. Timeline: entro venerdì.,Commerciale,Alta
+293,Informazioni prodotto,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Bassa
+68,Problema connessione,La sincronizzazione con il database è fallita alle 14:30.,Tecnico,Media
+190,Documento fiscale mancante,Segnalazione discrepanza nel bilancio trimestrale Q1 2024.,Amministrativo,Media
+19,Timeout API,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+56,Timeout API,"La velocità di caricamento è molto lenta, circa 5 minuti per query semplici.",Tecnico,Bassa
+185,Richiesta note credito,Richiedo nota credito per reso merce non conforme.,Amministrativo,Bassa
+33,Server non raggiungibile,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+128,Rimborso richiesto,La fattura FT2024001 non risulta pagata in tesoreria. Controllare il versamento.,Amministrativo,Alta
+282,Problema consegna,Mi interessa sapere se avete un catalogo completo in PDF.,Commerciale,Media
+59,Bug interfaccia,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+25,Errore autenticazione,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+231,Informazioni catalogo,Mi interessa sapere se avete un catalogo completo in PDF.,Commerciale,Bassa
+265,Partnership proposta,Mi serve un preventivo urgente per 100 licenze software. Timeline: entro venerdì.,Commerciale,Alta
+17,Problema connessione,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+165,Rimborso richiesto,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Alta
+285,Informazioni catalogo,Registrazione nuovo cliente per primo ordine di prova.,Commerciale,Media
+201,Ordine urgente,Vorrei conoscere i termini di sconto per acquisti bulk.,Commerciale,Alta
+72,Problema connessione,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+149,Documento fiscale mancante,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Bassa
+46,Errore autenticazione,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+130,Modifica dati anagrafi,Dati fornitore inesatti nel sistema.,Amministrativo,Media
+74,Bug interfaccia,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Bassa
+61,Applicazione crash,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+92,Sincronizzazione fallita,Il backup di questa notte non è stato completato.,Tecnico,Bassa
+51,Bug interfaccia,La sincronizzazione con il database è fallita alle 14:30.,Tecnico,Bassa
+251,Nuovo cliente registrazione,"Sono cliente di lunga data, potete fare uno sconto su questo ordine?",Commerciale,Media
+27,Bug interfaccia,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+164,Fattura non pagata,Segnalazione discrepanza nel bilancio trimestrale Q1 2024.,Amministrativo,Alta
+98,Problema connessione,"Password non accettata, errore autenticazione",Tecnico,Alta
+244,Ordine urgente,Ho ricevuto l'ordine ORD-2024-789 ma la quantità è sbagliata.,Commerciale,Alta
+246,Partnership proposta,Mi serve un preventivo urgente per 100 licenze software. Timeline: entro venerdì.,Commerciale,Alta
+52,Errore autenticazione,"Password non accettata, errore autenticazione",Tecnico,Alta
+75,Timeout API,Il backup di questa notte non è stato completato.,Tecnico,Bassa
+96,Errore autenticazione,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Alta
+31,Timeout API,Problema certificato SSL scaduto,Tecnico,Media
+32,Bug interfaccia,Il backup di questa notte non è stato completato.,Tecnico,Bassa
+6,Performance degrado,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+41,Sincronizzazione fallita,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Bassa
+77,Server non raggiungibile,"La velocità di caricamento è molto lenta, circa 5 minuti per query semplici.",Tecnico,Bassa
+154,Allegato documentazione,Ho pagato due volte la fattura FT2024002. Necessario rimborso.,Amministrativo,Alta
+247,Ordine urgente,Ho ricevuto l'ordine ORD-2024-789 ma la quantità è sbagliata.,Commerciale,Alta
+174,Fattura non pagata,Segnalazione discrepanza nel bilancio trimestrale Q1 2024.,Amministrativo,Alta
+242,Ordine urgente,Voglio modificare la quantità nell'ordine ORD-2024-111 prima della spedizione.,Commerciale,Alta
+189,Verifica tassa,Ho pagato due volte la fattura FT2024002. Necessario rimborso.,Amministrativo,Alta
+262,Partnership proposta,Ho ricevuto l'ordine ORD-2024-789 ma la quantità è sbagliata.,Commerciale,Media
+227,Partnership proposta,Proposizione collaborazione per distribuzione esclusiva.,Commerciale,Bassa
+213,Offerta speciale,Registrazione nuovo cliente per primo ordine di prova.,Commerciale,Media
+241,Richiesta preventivo,Proposizione collaborazione per distribuzione esclusiva.,Commerciale,Media
+83,Errore autenticazione,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+243,Partnership proposta,Proposizione collaborazione per distribuzione esclusiva.,Commerciale,Bassa
+236,Offerta speciale,Mi serve un preventivo urgente per 100 licenze software. Timeline: entro venerdì.,Commerciale,Alta
+110,Richiesta note credito,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Bassa
+121,Allegato documentazione,La documentazione aziendale necessita aggiornamento dati sede.,Amministrativo,Bassa
+123,Fattura non pagata,Richiedo nota credito per reso merce non conforme.,Amministrativo,Alta
+229,Partnership proposta,Voglio modificare la quantità nell'ordine ORD-2024-111 prima della spedizione.,Commerciale,Media
+230,Problema consegna,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Media
+295,Nuovo cliente registrazione,Mi interessa sapere se avete un catalogo completo in PDF.,Commerciale,Bassa
+34,Server non raggiungibile,Problema certificato SSL scaduto,Tecnico,Media
+170,Fattura non pagata,La fattura FT2024001 non risulta pagata in tesoreria. Controllare il versamento.,Amministrativo,Alta
+235,Ordine urgente,Mi interessa sapere se avete un catalogo completo in PDF.,Commerciale,Alta
+148,Errore contabilità,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+206,Richiesta preventivo,Vorrei conoscere i termini di sconto per acquisti bulk.,Commerciale,Media
+240,Problema consegna,Vorrei conoscere i termini di sconto per acquisti bulk.,Commerciale,Media
+100,Server non raggiungibile,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+119,Modifica dati anagrafi,Segnalazione discrepanza nel bilancio trimestrale Q1 2024.,Amministrativo,Media
+155,Pagamento duplicato,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Alta
+38,Sincronizzazione fallita,"Password non accettata, errore autenticazione",Tecnico,Alta
+147,Allegato documentazione,Segnalazione discrepanza nel bilancio trimestrale Q1 2024.,Amministrativo,Media
+89,Performance degrado,"Password non accettata, errore autenticazione",Tecnico,Alta
+296,Problema consegna,"Sono cliente di lunga data, potete fare uno sconto su questo ordine?",Commerciale,Media
+173,Allegato documentazione,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+233,Ordine modificazione,"Sono cliente di lunga data, potete fare uno sconto su questo ordine?",Commerciale,Media
+215,Problema consegna,Vorrei conoscere i termini di sconto per acquisti bulk.,Commerciale,Media
+214,Sconto cliente,Proposizione collaborazione per distribuzione esclusiva.,Commerciale,Bassa
+58,Performance degrado,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+103,Modifica dati anagrafi,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Media
+141,Richiesta note credito,Richiedo nota credito per reso merce non conforme.,Amministrativo,Bassa
+28,Sincronizzazione fallita,Errore di connessione al servizio esterno API payments.,Tecnico,Alta
+126,Allegato documentazione,Allegato contratto per la verifica approvazione.,Amministrativo,Bassa
+14,Problema connessione,La sincronizzazione con il database è fallita alle 14:30.,Tecnico,Media
+116,Verifica tassa,Dati fornitore inesatti nel sistema.,Amministrativo,Bassa
+26,Problema connessione,Errore di connessione al servizio esterno API payments.,Tecnico,Alta
+254,Nuovo cliente registrazione,La consegna dell'ordine ORD-2024-654 era prevista per lunedì ma non è arrivata.,Commerciale,Media
+288,Ordine urgente,Vorrei conoscere i termini di sconto per acquisti bulk.,Commerciale,Alta
+43,Performance degrado,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+193,Discrepanza bilancio,Richiedo nota credito per reso merce non conforme.,Amministrativo,Media
+12,Timeout API,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Bassa
+234,Partnership proposta,Mi serve un preventivo urgente per 100 licenze software. Timeline: entro venerdì.,Commerciale,Alta
+237,Nuovo cliente registrazione,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Bassa
+11,Problema connessione,"La velocità di caricamento è molto lenta, circa 5 minuti per query semplici.",Tecnico,Media
+37,Errore database,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Alta
+273,Ordine urgente,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Alta
+134,Errore contabilità,Segnalazione discrepanza nel bilancio trimestrale Q1 2024.,Amministrativo,Alta
+120,Errore contabilità,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+20,Performance degrado,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+228,Informazioni prodotto,Proposizione collaborazione per distribuzione esclusiva.,Commerciale,Bassa
+93,Bug interfaccia,"Password non accettata, errore autenticazione",Tecnico,Alta
+153,Discrepanza bilancio,Ho pagato due volte la fattura FT2024002. Necessario rimborso.,Amministrativo,Alta
+159,Fattura non pagata,Dati fornitore inesatti nel sistema.,Amministrativo,Alta
+45,Performance degrado,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+219,Sconto cliente,Mi serve un preventivo urgente per 100 licenze software. Timeline: entro venerdì.,Commerciale,Alta
+73,Bug interfaccia,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Bassa
+76,Applicazione crash,"Password non accettata, errore autenticazione",Tecnico,Alta
+82,Timeout API,La sincronizzazione con il database è fallita alle 14:30.,Tecnico,Bassa
+57,Bug interfaccia,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Bassa
+112,Documento fiscale mancante,Richiedo nota credito per reso merce non conforme.,Amministrativo,Bassa
+39,Performance degrado,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Bassa
+9,Errore autenticazione,La sincronizzazione con il database è fallita alle 14:30.,Tecnico,Alta
+137,Documento fiscale mancante,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+29,Applicazione crash,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+245,Problema consegna,Mi interessa sapere se avete un catalogo completo in PDF.,Commerciale,Media
+171,Modifica dati anagrafi,La documentazione aziendale necessita aggiornamento dati sede.,Amministrativo,Media
+252,Ordine urgente,Registrazione nuovo cliente per primo ordine di prova.,Commerciale,Alta
+99,Applicazione crash,L'applicazione si chiude inaspettatamente quando accedo al modulo reporting.,Tecnico,Alta
+166,Modifica dati anagrafi,Dati fornitore inesatti nel sistema.,Amministrativo,Media
+226,Problema consegna,Vorrei conoscere i termini di sconto per acquisti bulk.,Commerciale,Media
+263,Nuovo cliente registrazione,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Bassa
+209,Sconto cliente,Mi interessa sapere se avete un catalogo completo in PDF.,Commerciale,Bassa
+114,Modifica dati anagrafi,Ho pagato due volte la fattura FT2024002. Necessario rimborso.,Amministrativo,Alta
+8,File corrotto,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Bassa
+211,Richiesta preventivo,La consegna dell'ordine ORD-2024-654 era prevista per lunedì ma non è arrivata.,Commerciale,Media
+35,Timeout API,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Bassa
+220,Problema consegna,Registrazione nuovo cliente per primo ordine di prova.,Commerciale,Media
+145,Fattura non pagata,Richiedo rimborso per l'ordine ORD-2024-456 già annullato.,Amministrativo,Alta
+160,Fattura non pagata,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+182,Verifica tassa,La documentazione aziendale necessita aggiornamento dati sede.,Amministrativo,Bassa
+65,File corrotto,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Bassa
+5,Sincronizzazione fallita,Problema certificato SSL scaduto,Tecnico,Media
+162,Fattura non pagata,La fattura FT2024001 non risulta pagata in tesoreria. Controllare il versamento.,Amministrativo,Alta
+272,Richiesta preventivo,La consegna dell'ordine ORD-2024-654 era prevista per lunedì ma non è arrivata.,Commerciale,Media
+223,Ordine modificazione,Mi interessa sapere se avete un catalogo completo in PDF.,Commerciale,Media
+169,Errore contabilità,Allegato contratto per la verifica approvazione.,Amministrativo,Alta
+23,Problema connessione,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+276,Problema consegna,Voglio modificare la quantità nell'ordine ORD-2024-111 prima della spedizione.,Commerciale,Media
+62,Applicazione crash,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+181,Fattura non pagata,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+7,Server non raggiungibile,Il backup di questa notte non è stato completato.,Tecnico,Bassa
+4,File corrotto,Errore di connessione al servizio esterno API payments.,Tecnico,Alta
+204,Offerta speciale,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Bassa
+283,Ordine modificazione,Vorrei conoscere i termini di sconto per acquisti bulk.,Commerciale,Media
+55,File corrotto,L'applicazione si chiude inaspettatamente quando accedo al modulo reporting.,Tecnico,Bassa
+258,Ordine modificazione,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Media
+183,Modifica dati anagrafi,Allegato contratto per la verifica approvazione.,Amministrativo,Media
+67,File corrotto,L'applicazione si chiude inaspettatamente quando accedo al modulo reporting.,Tecnico,Bassa
+259,Richiesta preventivo,Mi interessa sapere se avete un catalogo completo in PDF.,Commerciale,Media
+179,Discrepanza bilancio,La fattura FT2024001 non risulta pagata in tesoreria. Controllare il versamento.,Amministrativo,Alta
+22,Errore database,Errore di connessione al servizio esterno API payments.,Tecnico,Alta
+274,Problema consegna,Ho ricevuto l'ordine ORD-2024-789 ma la quantità è sbagliata.,Commerciale,Media
+279,Problema consegna,Vorrei conoscere i termini di sconto per acquisti bulk.,Commerciale,Media
+111,Fattura non pagata,Richiedo nota credito per reso merce non conforme.,Amministrativo,Alta
+161,Pagamento duplicato,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+167,Modifica dati anagrafi,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Media
+10,Errore database,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+18,Applicazione crash,L'applicazione si chiude inaspettatamente quando accedo al modulo reporting.,Tecnico,Alta
+48,Applicazione crash,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+143,Errore contabilità,Allegato contratto per la verifica approvazione.,Amministrativo,Alta
+188,Verifica tassa,Richiedo nota credito per reso merce non conforme.,Amministrativo,Bassa
+54,Server non raggiungibile,La sincronizzazione con il database è fallita alle 14:30.,Tecnico,Bassa
+284,Offerta speciale,Mi interessa sapere se avete un catalogo completo in PDF.,Commerciale,Bassa
+294,Offerta speciale,Registrazione nuovo cliente per primo ordine di prova.,Commerciale,Media
+3,Errore database,Il backup di questa notte non è stato completato.,Tecnico,Alta
+271,Informazioni prodotto,"Sono cliente di lunga data, potete fare uno sconto su questo ordine?",Commerciale,Media
+212,Ordine modificazione,Mi interessa sapere se avete un catalogo completo in PDF.,Commerciale,Media
+267,Problema consegna,Vorrei conoscere i termini di sconto per acquisti bulk.,Commerciale,Media
+78,Bug interfaccia,Errore di connessione al servizio esterno API payments.,Tecnico,Alta
+163,Discrepanza bilancio,Segnalazione discrepanza nel bilancio trimestrale Q1 2024.,Amministrativo,Media
+97,Problema connessione,La sincronizzazione con il database è fallita alle 14:30.,Tecnico,Media
+131,Pagamento duplicato,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Alta
+102,Pagamento duplicato,Allegato contratto per la verifica approvazione.,Amministrativo,Alta
+107,Richiesta note credito,Dati fornitore inesatti nel sistema.,Amministrativo,Bassa
+142,Documento fiscale mancante,Segnalazione discrepanza nel bilancio trimestrale Q1 2024.,Amministrativo,Media
+298,Informazioni prodotto,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Bassa
+30,Performance degrado,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+275,Ordine modificazione,Registrazione nuovo cliente per primo ordine di prova.,Commerciale,Media
+268,Informazioni prodotto,Ho ricevuto l'ordine ORD-2024-789 ma la quantità è sbagliata.,Commerciale,Media
+66,Errore autenticazione,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+300,Ordine urgente,Ho ricevuto l'ordine ORD-2024-789 ma la quantità è sbagliata.,Commerciale,Alta
+44,Server non raggiungibile,L'applicazione si chiude inaspettatamente quando accedo al modulo reporting.,Tecnico,Bassa
+118,Richiesta note credito,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Bassa
+117,Pagamento duplicato,Richiedo nota credito per reso merce non conforme.,Amministrativo,Alta
+291,Sconto cliente,Ho ricevuto l'ordine ORD-2024-789 ma la quantità è sbagliata.,Commerciale,Media
+13,Performance degrado,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Bassa
+266,Ordine urgente,La consegna dell'ordine ORD-2024-654 era prevista per lunedì ma non è arrivata.,Commerciale,Alta
+129,Documento fiscale mancante,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Bassa
+60,File corrotto,"La velocità di caricamento è molto lenta, circa 5 minuti per query semplici.",Tecnico,Bassa
+281,Ordine modificazione,La consegna dell'ordine ORD-2024-654 era prevista per lunedì ma non è arrivata.,Commerciale,Media
+286,Nuovo cliente registrazione,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Bassa
+299,Nuovo cliente registrazione,Proposizione collaborazione per distribuzione esclusiva.,Commerciale,Bassa
+249,Partnership proposta,"Sono cliente di lunga data, potete fare uno sconto su questo ordine?",Commerciale,Media
+210,Sconto cliente,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Bassa
+125,Verifica tassa,Allegato contratto per la verifica approvazione.,Amministrativo,Bassa
+101,Verifica tassa,Dati fornitore inesatti nel sistema.,Amministrativo,Bassa
+256,Nuovo cliente registrazione,La consegna dell'ordine ORD-2024-654 era prevista per lunedì ma non è arrivata.,Commerciale,Media
+71,File corrotto,L'applicazione si chiude inaspettatamente quando accedo al modulo reporting.,Tecnico,Bassa
+146,Allegato documentazione,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Bassa
+87,Errore autenticazione,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+255,Sconto cliente,Registrazione nuovo cliente per primo ordine di prova.,Commerciale,Media
+270,Richiesta preventivo,Proposizione collaborazione per distribuzione esclusiva.,Commerciale,Media
+85,Errore autenticazione,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+253,Sconto cliente,Voglio modificare la quantità nell'ordine ORD-2024-111 prima della spedizione.,Commerciale,Media
+224,Offerta speciale,Mi serve un preventivo urgente per 100 licenze software. Timeline: entro venerdì.,Commerciale,Alta
+191,Verifica tassa,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+81,File corrotto,"L'interfaccia non risponde ai click, blocco totale.",Tecnico,Bassa
+152,Documento fiscale mancante,Richiedo rimborso per l'ordine ORD-2024-456 già annullato.,Amministrativo,Alta
+115,Verifica tassa,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+222,Richiesta preventivo,"Sono cliente di lunga data, potete fare uno sconto su questo ordine?",Commerciale,Media
+250,Informazioni prodotto,"Sono cliente di lunga data, potete fare uno sconto su questo ordine?",Commerciale,Media
+94,Timeout API,L'applicazione si chiude inaspettatamente quando accedo al modulo reporting.,Tecnico,Bassa
+84,Problema connessione,"Password non accettata, errore autenticazione",Tecnico,Alta
+184,Richiesta note credito,Dati fornitore inesatti nel sistema.,Amministrativo,Bassa
+157,Modifica dati anagrafi,Richiedo rimborso per l'ordine ORD-2024-456 già annullato.,Amministrativo,Alta
+269,Ordine urgente,Ho ricevuto l'ordine ORD-2024-789 ma la quantità è sbagliata.,Commerciale,Alta
+176,Rimborso richiesto,La documentazione aziendale necessita aggiornamento dati sede.,Amministrativo,Alta
+91,File corrotto,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+113,Verifica tassa,Richiedo rimborso per l'ordine ORD-2024-456 già annullato.,Amministrativo,Alta
+199,Errore contabilità,Segnalazione discrepanza nel bilancio trimestrale Q1 2024.,Amministrativo,Alta
+109,Documento fiscale mancante,Richiedo nota credito per reso merce non conforme.,Amministrativo,Bassa
+178,Allegato documentazione,Richiedo nota credito per reso merce non conforme.,Amministrativo,Bassa
+278,Ordine modificazione,"Sono cliente di lunga data, potete fare uno sconto su questo ordine?",Commerciale,Media
+151,Documento fiscale mancante,La fattura FT2024001 non risulta pagata in tesoreria. Controllare il versamento.,Amministrativo,Alta
+50,Performance degrado,"Password non accettata, errore autenticazione",Tecnico,Alta
+186,Pagamento duplicato,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Alta
+218,Problema consegna,"Sono cliente di lunga data, potete fare uno sconto su questo ordine?",Commerciale,Media
+49,File corrotto,Il backup di questa notte non è stato completato.,Tecnico,Bassa
+238,Problema consegna,Mi interessa sapere se avete un catalogo completo in PDF.,Commerciale,Media
+208,Ordine urgente,Voglio modificare la quantità nell'ordine ORD-2024-111 prima della spedizione.,Commerciale,Alta
+261,Ordine modificazione,Vorrei conoscere i termini di sconto per acquisti bulk.,Commerciale,Media
+105,Verifica tassa,Segnalazione discrepanza nel bilancio trimestrale Q1 2024.,Amministrativo,Media
+2,File corrotto,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+90,Errore autenticazione,Problema certificato SSL scaduto,Tecnico,Alta
+175,Rimborso richiesto,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+217,Richiesta preventivo,Mi serve un preventivo urgente per 100 licenze software. Timeline: entro venerdì.,Commerciale,Alta
+69,Errore autenticazione,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+180,Discrepanza bilancio,Richiedo rimborso per l'ordine ORD-2024-456 già annullato.,Amministrativo,Alta
+140,Richiesta note credito,Richiedo nota credito per reso merce non conforme.,Amministrativo,Bassa
+53,Errore autenticazione,"La velocità di caricamento è molto lenta, circa 5 minuti per query semplici.",Tecnico,Alta
+197,Allegato documentazione,La documentazione aziendale necessita aggiornamento dati sede.,Amministrativo,Bassa
+42,Errore database,Problema certificato SSL scaduto,Tecnico,Alta
+260,Problema consegna,"Sono cliente di lunga data, potete fare uno sconto su questo ordine?",Commerciale,Media
+216,Sconto cliente,Vorrei conoscere i termini di sconto per acquisti bulk.,Commerciale,Bassa
+187,Errore contabilità,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+150,Rimborso richiesto,La fattura FT2024001 non risulta pagata in tesoreria. Controllare il versamento.,Amministrativo,Alta
+264,Nuovo cliente registrazione,Proposizione collaborazione per distribuzione esclusiva.,Commerciale,Bassa
+21,File corrotto,La sincronizzazione con il database è fallita alle 14:30.,Tecnico,Bassa
+122,Discrepanza bilancio,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Media
+139,Modifica dati anagrafi,La documentazione aziendale necessita aggiornamento dati sede.,Amministrativo,Media
+132,Documento fiscale mancante,Richiedo nota credito per reso merce non conforme.,Amministrativo,Bassa
+108,Verifica tassa,Segnalazione discrepanza nel bilancio trimestrale Q1 2024.,Amministrativo,Media
+232,Richiesta preventivo,Vorrei conoscere i termini di sconto per acquisti bulk.,Commerciale,Media
+290,Nuovo cliente registrazione,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Bassa
+63,Timeout API,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+177,Errore contabilità,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+207,Partnership proposta,Proposizione collaborazione per distribuzione esclusiva.,Commerciale,Bassa
+168,Errore contabilità,Allegato contratto per la verifica approvazione.,Amministrativo,Alta
+202,Informazioni catalogo,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Bassa
+192,Pagamento duplicato,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Alta
+127,Modifica dati anagrafi,Dati fornitore inesatti nel sistema.,Amministrativo,Media
+133,Allegato documentazione,La fattura FT2024001 non risulta pagata in tesoreria. Controllare il versamento.,Amministrativo,Alta
+64,Errore database,"Password non accettata, errore autenticazione",Tecnico,Alta
+277,Nuovo cliente registrazione,La consegna dell'ordine ORD-2024-654 era prevista per lunedì ma non è arrivata.,Commerciale,Media
+47,Timeout API,Ricevo errore 500 quando trato di salvare il documento.,Tecnico,Alta
+203,Informazioni prodotto,Voglio modificare la quantità nell'ordine ORD-2024-111 prima della spedizione.,Commerciale,Media
+297,Partnership proposta,Quali sono le caratteristiche tecniche del prodotto PRD-456?,Commerciale,Bassa
+289,Informazioni catalogo,Mi serve un preventivo urgente per 100 licenze software. Timeline: entro venerdì.,Commerciale,Alta
+15,Performance degrado,L'applicazione si chiude inaspettatamente quando accedo al modulo reporting.,Tecnico,Bassa
+221,Richiesta preventivo,Ho ricevuto l'ordine ORD-2024-789 ma la quantità è sbagliata.,Commerciale,Media
+196,Errore contabilità,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+36,Applicazione crash,"Password non accettata, errore autenticazione",Tecnico,Alta
+194,Documento fiscale mancante,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+280,Sconto cliente,Mi serve un preventivo urgente per 100 licenze software. Timeline: entro venerdì.,Commerciale,Alta
+158,Fattura non pagata,Richiedo nota credito per reso merce non conforme.,Amministrativo,Alta
+88,Applicazione crash,Il server è irraggiungibile da questa mattina. Non riesco a connettermi.,Tecnico,Alta
+104,Documento fiscale mancante,Mancano i documenti fiscali per la pratica PA-2024-123.,Amministrativo,Bassa
+95,File corrotto,Il backup di questa notte non è stato completato.,Tecnico,Bassa
+239,Offerta speciale,Voglio modificare la quantità nell'ordine ORD-2024-111 prima della spedizione.,Commerciale,Media
+200,Modifica dati anagrafi,Ho pagato due volte la fattura FT2024002. Necessario rimborso.,Amministrativo,Alta
+80,Timeout API,Il backup di questa notte non è stato completato.,Tecnico,Bassa
+225,Informazioni catalogo,Mi serve un preventivo urgente per 100 licenze software. Timeline: entro venerdì.,Commerciale,Alta
+198,Richiesta note credito,Allegato contratto per la verifica approvazione.,Amministrativo,Bassa
+70,Errore autenticazione,"Password non accettata, errore autenticazione",Tecnico,Alta
+106,Modifica dati anagrafi,Richiedo nota credito per reso merce non conforme.,Amministrativo,Media
+135,Rimborso richiesto,Verificare il calcolo IVA sulla fattura passiva FT-PASS-789.,Amministrativo,Alta
+40,Applicazione crash,Errore di connessione al servizio esterno API payments.,Tecnico,Alta
+172,Fattura non pagata,Ho pagato due volte la fattura FT2024002. Necessario rimborso.,Amministrativo,Alta
+136,Errore contabilità,Dati fornitore inesatti nel sistema.,Amministrativo,Alta
+1,Sincronizzazione fallita,La sincronizzazione con il database è fallita alle 14:30.,Tecnico,Bassa
+16,Problema connessione,Il backup di questa notte non è stato completato.,Tecnico,Media
