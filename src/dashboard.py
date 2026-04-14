@@ -22,6 +22,183 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# CSS personalizzato per tema rilassante giallo ocra
+st.markdown("""
+<style>
+    /* Sfondo principale rilassante */
+    .stApp {
+        background-color: #F5F5DC; /* Beige chiaro */
+    }
+    
+    /* Header con colore ocra */
+    .stApp header {
+        background-color: #DAA520; /* Ocra */
+        color: #8B4513; /* Marrone scuro */
+    }
+    
+    /* Titoli */
+    h1, h2, h3, h4, h5, h6 {
+        color: #654321 !important; /* Marrone scuro */
+        font-family: 'Georgia', serif !important;
+    }
+    
+    /* Streamlit title and header */
+    .css-fblp2m, .css-10trblm, .st-emotion-cache-fblp2m, .st-emotion-cache-10trblm {
+        color: #654321 !important;
+    }
+    
+    /* Testo normale */
+    .stMarkdown, .stText, p {
+        color: #654321; /* Marrone chiaro */
+        font-family: 'Georgia', serif;
+    }
+    
+    /* Sidebar */
+    [data-testid="stSidebar"] {
+        background-color: #8B4513 !important; /* Marrone scuro */
+    }
+    
+    .sidebar .sidebar-content {
+        background-color: #8B4513 !important; /* Marrone scuro */
+    }
+    
+    /* Sidebar title */
+    .sidebar .sidebar-content h2, [data-testid="stSidebar"] h2, .sidebar .sidebar-content .css-1r6slb0 {
+        color: #F5F5DC !important;
+        font-family: 'Georgia', serif !important;
+    }
+    
+    /* Pulsanti */
+    .stButton button {
+        background-color: #DAA520; /* Ocra */
+        color: #FFFFFF; /* Bianco */
+        border: 2px solid #B8860B; /* Ocra scuro */
+        border-radius: 8px;
+        font-family: 'Georgia', serif;
+        font-weight: bold;
+    }
+    
+    .stButton button:hover {
+        background-color: #B8860B; /* Ocra scuro */
+        border-color: #8B4513;
+    }
+    
+    /* Input fields */
+    .stTextInput input, .stTextArea textarea, .stSelectbox select {
+        background-color: #FFF8DC; /* Crema */
+        border: 2px solid #DAA520;
+        border-radius: 6px;
+        color: #654321;
+        font-family: 'Georgia', serif;
+    }
+    
+    /* Input fields alignment */
+    .stTextInput, .stSelectbox {
+        display: flex;
+        align-items: center;
+        margin-top: 0px; /* Rimuove margini extra */
+    }
+    
+    /* Placeholder color */
+    ::placeholder {
+        color: #8B4513 !important; /* Marrone scuro */
+        font-style: italic !important;
+    }
+    
+    /* Selectbox placeholder */
+    .stSelectbox select::placeholder {
+        color: #8B4513 !important;
+    }
+    
+    /* Option text in selectbox */
+    .stSelectbox option {
+        color: #654321 !important;
+        background-color: #FFF8DC !important;
+    }
+
+    /* Combobox color */
+    .stSelectbox select, [data-baseweb="select"] {
+        background-color: #FFF8DC !important; /* Crema */
+        border: 2px solid #DAA520 !important;
+        border-radius: 6px !important;
+        color: #654321 !important;
+        font-family: 'Georgia', serif !important;
+    }
+    
+    /* Dropdown menu */
+    [role="listbox"], [role="option"] {
+        background-color: #FFF8DC !important;
+        color: #654321 !important;
+    }
+    
+    /* Selectbox button */
+    .stSelectbox button, .stSelectbox [role="button"] {
+        background-color: #FFF8DC !important;
+        color: #654321 !important;
+        border: 2px solid #DAA520 !important;
+    }
+    
+    /* Sidebar selectbox */
+    .sidebar .stSelectbox select, .sidebar [data-baseweb="select"], [data-testid="stSidebar"] .stSelectbox select {
+        background-color: #FFF8DC !important; /* Crema */
+        border: 2px solid #B8860B !important; /* Ocra scuro */
+        border-radius: 6px !important;
+        color: #654321 !important;
+        font-family: 'Georgia', serif !important;
+    }
+    
+    .sidebar .stSelectbox button, [data-testid="stSidebar"] .stSelectbox button {
+        background-color: #FFF8DC !important;
+        color: #654321 !important;
+        border: 2px solid #B8860B !important;
+    }
+    
+    /* Sidebar text */
+    .sidebar .stMarkdown, [data-testid="stSidebar"] .stMarkdown, .sidebar p, [data-testid="stSidebar"] p {
+        color: #F5F5DC !important;
+        font-family: 'Georgia', serif !important;
+    }
+
+    /* Input alignment */
+    .stTextInput, .stTextArea, .stSelectbox {
+        margin-top: 0px; /* Rimuove margini extra */
+    }
+    
+    /* Metriche */
+    .stMetric {
+        background-color: #F4E4BC;
+        border: 1px solid #DAA520;
+        border-radius: 8px;
+        padding: 10px;
+    }
+    
+    /* Success/Warning/Error boxes */
+    .stSuccess, .stWarning, .stError {
+        border-radius: 8px;
+        font-family: 'Georgia', serif;
+    }
+    
+    /* Dataframe */
+    .stDataFrame {
+        border: 1px solid #DAA520;
+        border-radius: 8px;
+    }
+            
+    /* Selectbox (valore visibile) */
+        div[data-baseweb="select"] > div {
+        background-color: #FFF8DC !important; /* Beige */
+        color: #654321 !important;
+        border: 2px solid #DAA520 !important;
+        border-radius: 6px !important;
+    }
+            
+    [data-testid="stSidebar"] div[data-baseweb="select"] > div {
+        background-color: #FFF8DC !important;
+        color: #654321 !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 class SmartTriageDashboard:
     def __init__(self):
         """Inizializza la dashboard"""
@@ -215,37 +392,62 @@ def main():
     
     # Sidebar per navigazione
     st.sidebar.title("Navigazione")
+    st.sidebar.markdown("**Seleziona funzionalità:**")
     page = st.sidebar.selectbox(
-        "Seleziona funzionalità:",
-        ["🔍 Singolo Ticket", "📊 Batch Prediction", "📈 Metriche Modelli"]
+        label="",
+        options=["🔍 Singolo Ticket", "📊 Batch Prediction", "📈 Metriche Modelli"],
+        label_visibility="collapsed"
     )
     
     if page == "🔍 Singolo Ticket":
         # Sezione Singolo Ticket
         st.header("🔍 Classificazione Singolo Ticket")
         
-        col1, col2 = st.columns(2)
-        
-        with col1:
-            title = st.text_input(
-                "Titolo del Ticket:",
-                placeholder="Es: Problema di connessione al server"
-            )
-        
-        with col2:
-            priority_hint = st.selectbox(
-                "Priorità (solo per riferimento):",
-                ["Bassa", "Media", "Alta"],
-                index=1
-            )
-        
-        body = st.text_area(
-            "Descrizione del Ticket:",
-            height=200,
-            placeholder="Es: Non riesco ad accedere al server da questa mattina..."
-        )
-        
-        if st.button("🚀 Analizza Ticket", type="primary"):
+        # Container per gli input
+        with st.container():
+            st.markdown("### 📝 Inserisci i dettagli del ticket")
+            
+            # Layout migliorato: più spazio per title e body
+            col1, col2 = st.columns([3, 1])
+            
+            with col1:
+                st.markdown("**Titolo del Ticket:**")
+                title = st.text_input(
+                    label_visibility="collapsed",
+                    placeholder="Es: Problema di connessione al server",
+                    help="Inserisci un titolo descrittivo del problema",
+                    label=""
+                )
+                
+                st.markdown("**Descrizione del Ticket:**")
+                body = st.text_area(
+                    label_visibility="collapsed",
+                    height=120,
+                    placeholder="Es: Non riesco ad accedere al server da questa mattina...",
+                    help="Descrivi dettagliatamente il problema riscontrato",
+                    label=""
+                )
+            
+            with col2:
+                st.markdown("**Priorità di riferimento**")
+                priority_hint = st.selectbox(
+                    label="",
+                    options=["Bassa", "Media", "Alta"],
+                    index=1,
+                    help="Seleziona la priorità che ritieni appropriata (solo per confronto)",
+                    label_visibility="collapsed"
+                )
+                
+                # Spazio per allineamento
+                st.markdown("<br>", unsafe_allow_html=True)
+                
+                # Pulsante centrato
+                if st.button("🚀 Analizza Ticket", type="primary", use_container_width=True):
+                    if not title.strip() and not body.strip():
+                        st.warning("⚠️ Inserisci almeno il titolo o la descrizione del ticket.")
+                    else:
+                        with st.spinner("Analisi in corso..."):
+                            prediction = dashboard.predict_single_ticket(title, body)
             if not title.strip() and not body.strip():
                 st.warning("⚠️ Inserisci almeno il titolo o la descrizione del ticket.")
             else:
