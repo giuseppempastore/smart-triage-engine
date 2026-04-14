@@ -68,6 +68,15 @@ st.markdown("""
         font-family: 'Georgia', serif !important;
     }
     
+    /* Ensure sidebar title is styled */
+    [data-testid="stSidebar"] h2 {
+        color: #F5F5DC !important;
+    }
+    
+    [data-testid="stSidebar"] .stMarkdown h1, [data-testid="stSidebar"] .stMarkdown h2, [data-testid="stSidebar"] .stMarkdown h3 {
+        color: #F5F5DC !important;
+    }
+    
     /* Pulsanti */
     .stButton button {
         background-color: #DAA520; /* Ocra */
@@ -196,6 +205,7 @@ st.markdown("""
         background-color: #FFF8DC !important;
         color: #654321 !important;
     }
+            
 </style>
 """, unsafe_allow_html=True)
 
@@ -391,8 +401,8 @@ def main():
     dashboard = SmartTriageDashboard()
     
     # Sidebar per navigazione
-    st.sidebar.title("Navigazione")
-    st.sidebar.markdown("**Seleziona funzionalità:**")
+    st.sidebar.markdown('<div style="color:#F5F5DC;font-family:Georgia, serif;font-size:20px;margin:0;padding:0"><strong>Navigazione</strong></div>', unsafe_allow_html=True)
+    st.sidebar.markdown('<div style="color:#F5F5DC;font-family:Georgia, serif;margin-top:6px"><strong>Seleziona funzionalità:</strong></div>', unsafe_allow_html=True)
     page = st.sidebar.selectbox(
         label="",
         options=["🔍 Singolo Ticket", "📊 Batch Prediction", "📈 Metriche Modelli"],
