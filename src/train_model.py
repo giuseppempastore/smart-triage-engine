@@ -16,6 +16,8 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 import re
 import warnings
 warnings.filterwarnings('ignore')
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 class TicketMLPipeline:
     def __init__(self, data_path=None, models_path=None):
@@ -29,6 +31,8 @@ class TicketMLPipeline:
         self.data_path = data_path or Path(__file__).parent.parent / "data" / "tickets_dataset.csv"
         self.models_path = models_path or Path(__file__).parent.parent / "models"
         self.models_path.mkdir(exist_ok=True)
+        self.reports_path = Path(__file__).parent.parent / "reports"
+        self.reports_path.mkdir(exist_ok=True)
         
         # Modelli addestrati
         self.category_model = None
@@ -199,6 +203,50 @@ class TicketMLPipeline:
         joblib.dump(metrics, metrics_path)
         print(f"  Metriche salvate: {metrics_path}")
     
+    def save_confusion_matrices(self):
+        """Salva le matrici di confusione come immagini PNG"""
+        print("✓ Generazione grafici matrici di confusione...")
+        
+        # Matrice di confusione per Categoria
+        if self.category_model and 'confusion_matrix' in self.category_metrics:
+            plt.figure(figsize=(8, 6))
+            sns.heatmap(
+                self.category_metrics['confusion_matrix'], 
+                annot=True, 
+                fmt='d', 
+                cmap='Blues',
+                xticklabels=self.category_model.classes_,
+                yticklabels=self.category_model.classes_
+            )
+            plt.title('Matrice di Confusione - Categoria')
+            plt.xlabel('Predetto')
+            plt.ylabel('Reale')
+            plt.tight_layout()
+            category_cm_path = self.reports_path / "confusion_matrix_category.png"
+            plt.savefig(category_cm_path, dpi=300, bbox_inches='tight')
+            plt.close()
+            print(f"  Grafico categoria salvato: {category_cm_path}")
+        
+        # Matrice di confusione per Priorità
+        if self.priority_model and 'confusion_matrix' in self.priority_metrics:
+            plt.figure(figsize=(8, 6))
+            sns.heatmap(
+                self.priority_metrics['confusion_matrix'], 
+                annot=True, 
+                fmt='d', 
+                cmap='Oranges',
+                xticklabels=self.priority_model.classes_,
+                yticklabels=self.priority_model.classes_
+            )
+            plt.title('Matrice di Confusione - Priorità')
+            plt.xlabel('Predetto')
+            plt.ylabel('Reale')
+            plt.tight_layout()
+            priority_cm_path = self.reports_path / "confusion_matrix_priority.png"
+            plt.savefig(priority_cm_path, dpi=300, bbox_inches='tight')
+            plt.close()
+            print(f"  Grafico priorità salvato: {priority_cm_path}")
+    
     def train_pipeline(self):
         """Esegue l'intera pipeline di training"""
         print("=" * 60)
@@ -248,13 +296,20 @@ class TicketMLPipeline:
         print("=" * 40)
         self.save_models()
         
-        # 7. Riassunto finale
+        # 7. Salva grafici
+        print("\n" + "=" * 40)
+        print("📊 SALVATAGGIO GRAFICI")
+        print("=" * 40)
+        self.save_confusion_matrices()
+        
+        # 8. Riassunto finale
         print("\n" + "=" * 60)
         print("✅ TRAINING COMPLETATO")
         print("=" * 60)
         print(f"Modello Categoria - Accuracy: {self.category_metrics['accuracy']:.3f}")
         print(f"Modello Priorità - Accuracy: {self.priority_metrics['accuracy']:.3f}")
         print(f"Modelli salvati in: {self.models_path}")
+        print(f"Grafici salvati in: {self.reports_path}")
         
         return True
 
